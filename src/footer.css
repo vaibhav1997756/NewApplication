@@ -1,0 +1,26 @@
+* {
+    overflow-x: hidden;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100vw;
+    
+}
+.ft-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.ft-flex>div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 17px;
+    color: white;
+}
+.foot-line {
+    text-decoration: none;
+    color: white;
+}
